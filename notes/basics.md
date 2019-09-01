@@ -30,3 +30,7 @@ mvn archetype:generate                      \
 * They start as executable specifications ==> gherkin files
 * We write our examples as `scenarios`, which are placed in `.feature` files
   under the src/test/resources/<project> directory and subdirectories
+* If you write scenarios with steps that don't make to step definitions,
+  mvn will spit out the code snippets you need to implenent them...NEAT!
+* Tests seems to be automatically defined as "pending", which marks them as skipped.
+  I guess this is how we write tests first and before the feature
