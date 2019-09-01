@@ -27,3 +27,4 @@ asserts
 * aiohttp library example: https://www.terriblecode.com/blog/asynchronous-http-requests-in-python/
 * aiohttp code: https://aiohttp.readthedocs.io/en/stable/
 * behave library: https://behave.readthedocs.io/en/latest/
+* hamcrest lib: https://github.com/hamcrest/PyHamcrest
