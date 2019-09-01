@@ -14,6 +14,8 @@ A meeting that turns user stories into Gherkin
 * Tester: Comes up with scenarios that need to be tested
 * developer: Adds steps to scenarios
 
+It is best to let developers write Gherkin and let product owners approve it
+
 ## Anatomy
 Tests are written as 'Features', each consisting of a scenario
 
