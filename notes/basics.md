@@ -40,3 +40,12 @@ mvn archetype:generate                      \
 * Scenario
 * Steps
 * Scenario Outlines: Can use a table to parameterize many scenarios. They take a table  of values
+
+# Anti-Patterns
+## Feature Coupled Step Definitions
+Step definitions that cannot be used across features or scenarios. It is better
+to organize steps by domain concept and use domain related names
+
+## Conjunctive Steps
+Using "And" and "But" in steps
+
