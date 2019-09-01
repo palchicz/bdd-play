@@ -34,3 +34,9 @@ mvn archetype:generate                      \
   mvn will spit out the code snippets you need to implenent them...NEAT!
 * Tests seems to be automatically defined as "pending", which marks them as skipped.
   I guess this is how we write tests first and before the feature
+
+# Components
+* Features
+* Scenario
+* Steps
+* Scenario Outlines: Can use a table to parameterize many scenarios. They take a table  of values

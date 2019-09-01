@@ -18,14 +18,11 @@ public class Stepdefs {
   private String today;
   private String actualAnswer;
 
-  @Given("today is Sunday")
-  public void today_is_Sunday() {
-    today = "Sunday";
-  }
-
-  @Given("today is Friday")
-  public void today_is_Friday() {
-    today = "Friday";
+  // Notice how we parameterize. The curlys give us a regex we can
+  // pass in
+  @Given("today is {string}")
+  public void today_is(String day) {
+    today = day;
   }
 
   @When("I ask whether it's Friday yet")
