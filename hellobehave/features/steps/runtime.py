@@ -2,14 +2,14 @@ from behave import *
 
 @given(u'we have behave installed')
 def step_impl(context):
-    raise NotImplementedError(u'STEP: Given we have behave installed')
+    pass
 
 
 @when(u'we implement a test')
 def step_impl(context):
-    raise NotImplementedError(u'STEP: When we implement a test')
+    assert True is not False
 
 
 @then(u'behave will test it for us!')
 def step_impl(context):
-    raise NotImplementedError(u'STEP: Then behave will test it for us!')
+    assert context.failed is False
